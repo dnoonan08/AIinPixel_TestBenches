@@ -2183,38 +2183,7 @@ assign ae_data_in_5b[31][31] = 5'b0;
 
 
 
-// 19b PCA outputs 
 
-assign pca_output_19b[0] = 19'b1100001001110101000;
-assign pca_output_19b[1] = 19'b1101000100101;
-assign pca_output_19b[2] = 19'b1101111010111;
-assign pca_output_19b[3] = 19'b111011010;
-assign pca_output_19b[4] = 19'b1111111110101000011;
-assign pca_output_19b[5] = 19'b10001111110;
-assign pca_output_19b[6] = 19'b10000010101;
-assign pca_output_19b[7] = 19'b101111101001;
-assign pca_output_19b[8] = 19'b1111111100010010110;
-assign pca_output_19b[9] = 19'b110001001;
-assign pca_output_19b[10] = 19'b1011010011;
-assign pca_output_19b[11] = 19'b110010010;
-assign pca_output_19b[12] = 19'b1111111100011001011;
-assign pca_output_19b[13] = 19'b1111111111001000111;
-assign pca_output_19b[14] = 19'b1111111110101010011;
-assign pca_output_19b[15] = 19'b1001000010;
-assign pca_output_19b[16] = 19'b11011011;
-assign pca_output_19b[17] = 19'b1011101010;
-assign pca_output_19b[18] = 19'b100000001;
-assign pca_output_19b[19] = 19'b1111111111100101100;
-assign pca_output_19b[20] = 19'b110100001;
-assign pca_output_19b[21] = 19'b1111111111111011111;
-assign pca_output_19b[22] = 19'b1111111110110111110;
-assign pca_output_19b[23] = 19'b100101000;
-assign pca_output_19b[24] = 19'b1111111111100011111;
-assign pca_output_19b[25] = 19'b1101101;
-assign pca_output_19b[26] = 19'b1111111111101010000;
-assign pca_output_19b[27] = 19'b1000101;
-assign pca_output_19b[28] = 19'b10001001;
-assign pca_output_19b[29] = 19'b10001;
 
 
 
@@ -2250,6 +2219,9 @@ assign ae_output_5b[26] = 5'b10000;
 assign ae_output_5b[27] = 5'b10;
 assign ae_output_5b[28] = 5'b1;
 assign ae_output_5b[29] = 5'b10001;
+
+
+
 // 7-bit output from original PCA weights (from Panpan)
 
 assign pca_output_orig_7b[0] = 7'b1111111;
@@ -2282,5 +2254,39 @@ assign pca_output_orig_7b[26] = 7'b1111101;
 assign pca_output_orig_7b[27] = 7'b0;
 assign pca_output_orig_7b[28] = 7'b1;
 assign pca_output_orig_7b[29] = 7'b0;
+
+
+// 19-bit output from original PCA weights (from Panpan)
+
+assign pca_output_orig_19b[0] = 19'b1111111110010000110;
+assign pca_output_orig_19b[1] = 19'b1111111111;
+assign pca_output_orig_19b[2] = 19'b11110001001;
+assign pca_output_orig_19b[3] = 19'b111001101;
+assign pca_output_orig_19b[4] = 19'b1111111111010110010;
+assign pca_output_orig_19b[5] = 19'b10110101000;
+assign pca_output_orig_19b[6] = 19'b1010101010;
+assign pca_output_orig_19b[7] = 19'b101100101101;
+assign pca_output_orig_19b[8] = 19'b1111111100011001110;
+assign pca_output_orig_19b[9] = 19'b1000001100;
+assign pca_output_orig_19b[10] = 19'b10100100100;
+assign pca_output_orig_19b[11] = 19'b10100111101;
+assign pca_output_orig_19b[12] = 19'b1111111001000100101;
+assign pca_output_orig_19b[13] = 19'b1111111111010000010;
+assign pca_output_orig_19b[14] = 19'b1111111100101110111;
+assign pca_output_orig_19b[15] = 19'b11100000000;
+assign pca_output_orig_19b[16] = 19'b1110010111;
+assign pca_output_orig_19b[17] = 19'b11001110100;
+assign pca_output_orig_19b[18] = 19'b1000110001;
+assign pca_output_orig_19b[19] = 19'b1111111101101111100;
+assign pca_output_orig_19b[20] = 19'b10110111001;
+assign pca_output_orig_19b[21] = 19'b1111111111011101010;
+assign pca_output_orig_19b[22] = 19'b1111111011001111010;
+assign pca_output_orig_19b[23] = 19'b100101110001;
+assign pca_output_orig_19b[24] = 19'b1111111011111100100;
+assign pca_output_orig_19b[25] = 19'b100010;
+assign pca_output_orig_19b[26] = 19'b1111111010110010011;
+assign pca_output_orig_19b[27] = 19'b1110011110;
+assign pca_output_orig_19b[28] = 19'b10000110110;
+assign pca_output_orig_19b[29] = 19'b100111100;
 
 

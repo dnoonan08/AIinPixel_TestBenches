@@ -2183,38 +2183,7 @@ assign ae_data_in_5b[31][31] = 5'b0;
 
 
 
-// 19b PCA outputs 
 
-assign pca_output_19b[0] = 19'b1100101000110011010;
-assign pca_output_19b[1] = 19'b1111110010111101010;
-assign pca_output_19b[2] = 19'b1111101110111100011;
-assign pca_output_19b[3] = 19'b1111111101110101000;
-assign pca_output_19b[4] = 19'b1111111110111111000;
-assign pca_output_19b[5] = 19'b1111111001101001111;
-assign pca_output_19b[6] = 19'b11011100100;
-assign pca_output_19b[7] = 19'b1111111010111000010;
-assign pca_output_19b[8] = 19'b1111110111101001011;
-assign pca_output_19b[9] = 19'b100110000101;
-assign pca_output_19b[10] = 19'b1111111110111001000;
-assign pca_output_19b[11] = 19'b11100011;
-assign pca_output_19b[12] = 19'b1111111111011011101;
-assign pca_output_19b[13] = 19'b1111111101101000010;
-assign pca_output_19b[14] = 19'b11000110010;
-assign pca_output_19b[15] = 19'b10011101001;
-assign pca_output_19b[16] = 19'b1111111111000011011;
-assign pca_output_19b[17] = 19'b1111111110000010111;
-assign pca_output_19b[18] = 19'b10111010101;
-assign pca_output_19b[19] = 19'b10111111;
-assign pca_output_19b[20] = 19'b1111111110111001010;
-assign pca_output_19b[21] = 19'b10001001100;
-assign pca_output_19b[22] = 19'b11111;
-assign pca_output_19b[23] = 19'b10000;
-assign pca_output_19b[24] = 19'b10111100101;
-assign pca_output_19b[25] = 19'b1111111111011001111;
-assign pca_output_19b[26] = 19'b100000000;
-assign pca_output_19b[27] = 19'b11001111;
-assign pca_output_19b[28] = 19'b1111111110101011101;
-assign pca_output_19b[29] = 19'b11011100;
 
 
 
@@ -2250,6 +2219,9 @@ assign ae_output_5b[26] = 5'b11011;
 assign ae_output_5b[27] = 5'b0;
 assign ae_output_5b[28] = 5'b11110;
 assign ae_output_5b[29] = 5'b10000;
+
+
+
 // 7-bit output from original PCA weights (from Panpan)
 
 assign pca_output_orig_7b[0] = 7'b1111111;
@@ -2282,5 +2254,39 @@ assign pca_output_orig_7b[26] = 7'b100;
 assign pca_output_orig_7b[27] = 7'b1;
 assign pca_output_orig_7b[28] = 7'b1111010;
 assign pca_output_orig_7b[29] = 7'b11;
+
+
+// 19-bit output from original PCA weights (from Panpan)
+
+assign pca_output_orig_19b[0] = 19'b1111111110100000010;
+assign pca_output_orig_19b[1] = 19'b1111111011101000100;
+assign pca_output_orig_19b[2] = 19'b1111111011100111100;
+assign pca_output_orig_19b[3] = 19'b1111111101101100111;
+assign pca_output_orig_19b[4] = 19'b1111111111100000101;
+assign pca_output_orig_19b[5] = 19'b1111111010010000110;
+assign pca_output_orig_19b[6] = 19'b10111001000;
+assign pca_output_orig_19b[7] = 19'b1111111010110000011;
+assign pca_output_orig_19b[8] = 19'b1111110111110010000;
+assign pca_output_orig_19b[9] = 19'b101000010010;
+assign pca_output_orig_19b[10] = 19'b1111111101001010110;
+assign pca_output_orig_19b[11] = 19'b1011001010;
+assign pca_output_orig_19b[12] = 19'b1111111111000000001;
+assign pca_output_orig_19b[13] = 19'b1111111011111111001;
+assign pca_output_orig_19b[14] = 19'b101111000011;
+assign pca_output_orig_19b[15] = 19'b1001001011100;
+assign pca_output_orig_19b[16] = 19'b1111111111000011011;
+assign pca_output_orig_19b[17] = 19'b1111111100011100001;
+assign pca_output_orig_19b[18] = 19'b1010110110010;
+assign pca_output_orig_19b[19] = 19'b1000000000;
+assign pca_output_orig_19b[20] = 19'b1111111011000010111;
+assign pca_output_orig_19b[21] = 19'b1000001010101;
+assign pca_output_orig_19b[22] = 19'b1111111111111101011;
+assign pca_output_orig_19b[23] = 19'b11100010;
+assign pca_output_orig_19b[24] = 19'b10111000011110;
+assign pca_output_orig_19b[25] = 19'b1111111010000101101;
+assign pca_output_orig_19b[26] = 19'b1000010111100;
+assign pca_output_orig_19b[27] = 19'b11110001001;
+assign pca_output_orig_19b[28] = 19'b1111110101001110001;
+assign pca_output_orig_19b[29] = 19'b110111001001;
 
 
